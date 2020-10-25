@@ -4,4 +4,4 @@ Link to the application: <a href="https://jasmineakbari.github.io/JA-Portfolio/"
 
 Application Screenshot:
 
-<img src="./assets/images/JA-Portfolio.png>" />
+<img src="./assets/images/JA-Portfolio.png" />
