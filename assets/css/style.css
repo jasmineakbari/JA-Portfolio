@@ -34,24 +34,6 @@ section {
     border-bottom: 3px solid var(--blue);
 }
 
-.secondary-section-title {
-    font-size: 36px;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-    color: var(--beige);
-}
-
-.secondary-section-title:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    padding-top: 20px;
-    border-bottom: 3px solid var(--beige);
-}
-
 a {
     color: inherit;
     text-decoration: none;
@@ -59,10 +41,6 @@ a {
 
 .primary-border {
     border-color: var(--blue)
-}
-
-.secondary-border {
-    border-color: var(--beige)
 }
 
 /* Header and Nav Styles Start */
@@ -76,16 +54,21 @@ header {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 20px, 35px;
+    background-image: url("../images/hero.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 0;
 }
 
 header nav ul li {
     display: inline-block;
     color: var(--beige);
-    width: 40%;
+    width: 30%;
+    margin: 40px 0 300px 0;
 }
 
 /* Header and Nav Styles End */
@@ -113,22 +96,12 @@ header nav ul li {
 /* Contact Styles Start */
 
 .contact {
-    color: var(--light-grey);
-    background-color: var(--blue);
+    color: var(--blue);
+    background-color: var(--light-grey);
     font-size: 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
     height: 100%;
     width: 100%;
-}
-
-.contact h2 {
-
-
-.contact img {
-    width: 10%;
-    transform: rotate(90deg);
 }
 
 /* Contact Styles End */
