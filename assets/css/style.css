@@ -228,60 +228,60 @@ footer {
 /* Media Queries Start */
 
 @media screen and (max-width: 980px) {
-    header img {
-        width: 15%;
-        border-radius: 50%;
-        margin-top: 10px;
-    }
-
 }
 
 @media screen and (max-width: 768px) {
-    .works img {
+    * {
+        margin: auto;
+    }
+    .flex-container {
+        display: block;
+        align-items: center;
+        margin: auto;
+        height: 100%;
         width: 100%;
-        display: flex;
-        position: relative;
-        overflow: hidden;
-        width: 33%;
+    }
+    
+    .flex-container-titles {
+        visibility: hidden;
     }
 
+    .works div {
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .work-title-1 {
+        visibility: hidden;
+    }
+    
+    .work-title-2 {
+        visibility: hidden;
+    }
+    
+    .work-title-3 {
+        visibility: hidden;
+    }
+    
     .work-1 {
-        display: flex;
-        position: relative;
-        overflow: hidden;
-        width: 33%;
+        display: block;
+        align-items: center;
+        width: 100%;
     }
     
     .work-2 {
-        display: flex;
-        position: relative;
-        overflow: hidden;
-        width: 33%;
+        display: block;
+        align-items: center;
+        width: 100%;
     }
     
     .work-3 {
-        display: flex;
-        position: relative;
-        overflow: hidden;
-        width: 33%;
-    }
-    
-    .work-1:hover img {
-        width: 160%;
-        transition: 2s;
-    }
-    
-    .work-2:hover img {
-        width: 200%;
-        transition: 2s;
-    }
-    
-    .work-3:hover img {
-        width: 200%;
-        transition: 2s;
+        display: block;
+        align-items: center;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 575px) {
-
 }
