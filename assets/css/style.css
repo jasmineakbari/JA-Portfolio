@@ -127,6 +127,16 @@ header img {
 }
 
 .work-1:hover img {
+    width: 20%;
+    transition: 2s;
+}
+
+.work-2:hover img {
+    width: 30%;
+    transition: 2s;
+}
+
+.work-3:hover img {
     width: 30%;
     transition: 2s;
 }
