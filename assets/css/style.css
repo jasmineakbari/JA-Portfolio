@@ -105,6 +105,10 @@ header img {
     width: 100%;
 }
 
+.works div {
+    display: flex;
+}
+
 .works img {
     width: 60%;
     display: flex;
@@ -118,18 +122,39 @@ header img {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row wrap;
-    text-align:center;
     flex-basis: 0;
     height: 100%;
     width: 100%;
 }
 
-.work-title {
+.flex-container-titles {
     display: flex;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row wrap;
     flex-basis: 0;
     height: 100%;
     width: 100%;
+}
+
+.work-title-1 {
+    position: relative;
+    overflow: hidden;
+    width: 33%;
+}
+
+.work-title-2 {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 33%;
+}
+
+.work-title-3 {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 33%;
 }
 
 .work-1 {
