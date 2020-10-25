@@ -97,6 +97,20 @@ header img {
     background-color: white;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.works img {
+    width: 10%;
+}
+
+.work-1:hover img {
+    width: 30%;
+    transition: 2s;
+}
 /* Works Styles End */
 
 /* Contact Styles Start */
