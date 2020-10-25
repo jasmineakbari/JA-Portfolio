@@ -1,7 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --blue: #1B6CA8;
     --light-blue: #0a97b0;
     --pink: #ffd3e1;
     --beige: #fce8d5;
     --light-grey: #E5E5E5;
+}
+
+section {
+    padding: 60px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Header and Nav Styles Start */
+
+header {
+    color: var(--light-grey);
+    font-size: larger;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px, 35px;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    color: var(--beige);
+}
+
+/* Header and Nav Styles End */
+
+/* About Me Styles Start */
+
+.about-me {
+    background-color: var(--light-grey);
+    color: var(--blue);
+    text-align: center;
+}
+
+/* About Me Styles End */
+
+/* Works Styles Start */
+
+.works {
+    color: var(--blue);
+    background-color: white;
+}
+
+/* Works Styles End */
+
+/* Contact Styles Start */
+
+.contact {
+    color: var(--light-grey);
+    background-color: var(--blue);
+}
+
+/* Contact Styles End */
+
+/* Media Queries Start */
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
