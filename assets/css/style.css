@@ -100,7 +100,25 @@ header img {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.work-1 {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-2 {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-3 {
+    display: flex;
+    position: relative;
+    overflow: hidden;
 }
 
 .works img {
