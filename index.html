@@ -1,129 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css" integrity="sha512-LeCmts7kEi09nKc+DwGJqDV+dNQi/W8/qb0oUSsBLzTYiBwxj0KBlAow2//jV7jwEHwSCPShRN2+IWwWcn1x7Q==" crossorigin="anonymous" />
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jasmine Akbari - Web Works</title>
     </head>
 
     <!-- Navigation and Hero Start -->
-    <header>
-        <h1>Jasmine Akbari</h1>
-            <img src="./assets/images/profile-pic2.jpg" alt="profile pic place holder" title="self portrait placeholder" />
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <h2><a href="#first">About Me</a></h2>
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
                 </li>
-                <li>
-                    <h2><a href="#second">My Works</a></h2>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Works</a>
                 </li>
-                <li>
-                    <h2><a href="#third">Contact Me</a></h2>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
-            </ul>
+                </ul>
+            </div>
         </nav>
-    </header>
+    </nav>
 
-    <!-- About Me Section Start -->
-    <body>
-        <section id="first" class="about-me">
-            <div>
-                <div>
-                    <h2 class="section-title primary-border">About Me</h2>
-                    <div>
-                        <p>
-                            Born and raised in San Diego, CA<br /> I made my way to Florida in July 2019 and have been here ever since.<br />
-                            With a Finance and compliance background I made my transition<br /> to front end web development after achieveing a certifcation<br />
-                            from UCF for Full Stack Web Development. I have an ever-increasing skill set<br /> and desire to grow in my career. I am a perfect fit for any project!<br />
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Works Section Start -->
-        <section id="second" class="works">
-            <div>
-                <h2 class="section-title primary-border">My Works</h2>
-            </div>
-            <div class="flex-containter-titles">
-                <div class="work-title-1">
-                    <h3>1. Run-Budy </h3>
-                </div>
-                <div class="work-title-2">
-                    <h3>2. Horiseon </h3>
-                </div>
-                <div class="work-title-3">
-                    <h3>3. Place Holder Application </h3>
-                </div>
-            </div>
-                <div class="flex-container">
-                    <div class="work-1">
-                        <a href="https://jasmineakbari.github.io/run-buddy/" target="_blank">
-                        <br />
-                        <br />
-                        <img src="./assets/images/run-buddy.png" alt="full page ss" title="Full Page Screenshot of Run Buddy Application" />
-                    </a>
-                    </div>
-                    <div class="work-2">
-                        <a href="https://jasmineakbari.github.io/refactor-seo/" target="_blank">
-                        <br />
-                        <br />
-                        <img src="./assets/images/horiseon.png" alt="full page ss" title="Full Page Screenshot of Horiseon Application" />
-                        </a>
-                    </div>
-                    <div class="work-3">
-                        <a href="https://jasmineakbari.github.io/JA-Portfolio/" target="_blank">
-                        <br />
-                        <br />
-                        <img src="./assets/images/JA-Portfolio.png" alt="full page ss" title="Full Page Screenshot of Jasmine Akbari Portfolio" />
-                    </div>
-                </div>
-        </section>
-
-        <!-- My Contacts Section Start -->
-        <section id="third" class="contact">
-            <div>
-                <div>
-                    <h2 class="section-title primary-border">Contact Me</h2>
-                </div>
-                    <div class="info">
-                        <h3>
-                            GitHub:
-                        </h3>
-                        <p>
-                            <a href="https://github.com/jasmineakbari">
-                                https://github.com/jasmineakbari</a>
-                        </p>
-                        <h3>
-                            Email Address:
-                        </h3>
-                        <p>
-                            <a href="mailtojasmineakbari@yahoo.com">
-                                jasmineakbari@yahoo.com</a>
-                        </p>
-                        <h3>
-                            Phone:
-                        </h3>
-                        <p>
-                            (760) 715-4484
-                        </p>
-                        <h3>
-                            Linkedin:
-                        </h3>
-                        <p>
-                            <a href="https://www.linkedin.com/in/jasmine-akbari-1174ab1b9/">
-                                https://www.linkedin.com/in/jasmine-akbari-1174ab1b9/</a>
-                        </p>
-                    </div>
-        </section>
-        
-        <!-- Footer Start -->
-        <footer>
-            <h3>With Love, Jasmine Akbari<i class="em em-cherry_blossom" aria-role="presentation" aria-label="CHERRY BLOSSOM"></i></h3>
-        </footer>
+    
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="navbar-brand">With , Jasmine Akbari</div>
+    </nav>  
     </body>
