@@ -33,6 +33,46 @@
     background-size: 100% 100%;
 }
 
+/* about me section styling */
+
+#aboutMe {
+    margin-top: 3.5rem;
+    background-color: var(--tertiary);
+    border-radius: 5px;
+}
+
+#aboutMe img {
+    border-radius: 5px;
+}
+
+/* works styling */
+
+#works img {
+    width: 100%;
+}
+
+/* contact styling */
+#contact {
+    margin-top: 3.5rem;
+    background-color: var(--tertiary);
+    border-radius: 5px;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#contact img {
+    border-radius: 5px;
+}
+
+/* footer styling */
+
 
 @media screen and (max-width: 575px) {
 }
