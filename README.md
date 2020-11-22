@@ -10,6 +10,13 @@ Listed also are sample projects: which are accessible by hovering and clicking o
 
 At the very bottom of the page are all my contact and links and information.
 
+<h3>Built With:</h3>
+<ul>
+<li>HTML</li>
+<li>Bootstrap</li>
+<li>CSS</li>
+</ul>
+
 <h3>Link:<h3>
 Link to the application: <a href="https://jasmineakbari.github.io/JA-Portfolio/">https://jasmineakbari.github.io/JA-Portfolio/</a>
 
