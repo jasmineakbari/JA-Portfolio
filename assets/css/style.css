@@ -22,7 +22,15 @@
 
 .navbar btn:hover {
     background: rgb(48,57,96);
-    background: linear-gradient(90deg, rgba(48,57,96,1) 0%, rgba(234,154,150,1) 50%, rgba(248,178,79,1) 100%);
+    background: linear-gradient(90deg, rgba(48,57,96,1) 0%
+    , rgba(234,154,150,1) 50%, rgba(248,178,79,1) 100%);
+}
+
+/* jumbotron stylings */
+.jumbotron {
+    background-image: url("../images/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
