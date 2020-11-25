@@ -5,6 +5,10 @@
     --grey: #e5e5e5;
 }
 
+body {
+    background-color: var(--primary);
+}
+
 /* navbar stylings */
 .navbar {
     background-color: var(--primary);
@@ -28,7 +32,7 @@
 
 /* jumbotron stylings */
 .jumbotron {
-    background-image: url("../images/hero-img.jpg");
+    background-image: url("../images/hero-img3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -46,9 +50,17 @@
 }
 
 /* works styling */
+#works {
+    background-color: var(--grey);
+    border-radius: 5px;
+}
 
-#works img {
-    width: 100%;
+#fifty {
+    width: 75%;
+}
+
+#twentyFive {
+    width: 30%;
 }
 
 /* contact styling */
@@ -72,6 +84,11 @@
 }
 
 /* footer styling */
+
+footer {
+    background-color: none;
+    color: var(--grey);
+}
 
 
 @media screen and (max-width: 575px) {

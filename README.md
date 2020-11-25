@@ -15,6 +15,8 @@ At the very bottom of the page are all my contact and links and information.
 <li>HTML</li>
 <li>Bootstrap</li>
 <li>CSS</li>
+<li>AOS</li>
+<li>JavaScript</li>
 </ul>
 
 <h3>Link:<h3>
