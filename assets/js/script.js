@@ -2,4 +2,4 @@
 AOS.init();
 
 // collapsible function
-$('.collapse').collapse()
+//$('.collapse').collapse()
