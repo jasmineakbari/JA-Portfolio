@@ -1,18 +1,28 @@
 :root {
-    --primary: #303960;
-    --secondary: #ea9a96;
-    --tertiary: #f8b24f;
-    --grey: #e5e5e5;
+    --primary: #222831;
+    --secondary: #b52b65;
+    --tertiary: #ed6663;
+    --fourth: #edc988;
 }
 
 body {
     background-color: var(--primary);
 }
 
+main {
+    margin-top: -31px;
+}
+
 /* navbar stylings */
 .navbar {
-    background-color: var(--primary);
-    color: var(--grey);
+    background-color: black;
+    color: var(--fourth);
+}
+
+nav h1 {
+    font-size: 42px;
+    margin-top: 8px;
+    text-shadow: black;
 }
 
 .navbar a {
@@ -25,34 +35,56 @@ body {
 }
 
 .navbar btn:hover {
-    background: rgb(48,57,96);
-    background: linear-gradient(90deg, rgba(48,57,96,1) 0%
-    , rgba(234,154,150,1) 50%, rgba(248,178,79,1) 100%);
+    background: rgb(181,43,101);
+    background: linear-gradient(348deg, rgba(181,43,101,1) 20%, rgba(237,102,99,1) 66%);
 }
 
 /* jumbotron stylings */
 .jumbotron {
-    background-image: url("../images/hero-img3.jpg");
+    color: white;
+    background-color: black;
+    background-image: url("../images/hero-img.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+}
+
+.hero-img {
+    padding: 170px;
+}
+
+.intro {
+    text-align: end;
 }
 
 /* about me section styling */
 
 #aboutMe {
-    margin-top: 3.5rem;
-    background-color: var(--tertiary);
+    color: white;
+    background-color: black;
     border-radius: 5px;
+    border: var(--secondary) solid 3px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.aboutText {
+    border: var(--secondary) solid 5px;
 }
 
 #aboutMe img {
     border-radius: 5px;
 }
 
+#aboutMe h2 {
+    margin-bottom: 25px;
+}
+
 /* works styling */
 #works {
-    background-color: var(--grey);
+    border: var(--secondary) solid 3px;
+    color: white;
+    background-color: black;
     border-radius: 5px;
+    padding: 50px;
 }
 
 #fifty {
@@ -65,9 +97,16 @@ body {
 
 /* contact styling */
 #contact {
-    margin-top: 3.5rem;
-    background-color: var(--tertiary);
+    border: var(--secondary) solid 3px;
+    padding: 50px;
+    margin-top: 100px;
+    color: white;
+    background-color: black;
     border-radius: 5px;
+}
+
+.contact-card {
+    background-color: var(--secondary);
 }
 
 #contact h2 {
@@ -90,6 +129,17 @@ footer {
     color: white;
 }
 
+.footer {
+    color: white;
+}
+
+.heart {
+    color: red;
+}
+
+.headset {
+    color: pink;
+}
 
 @media screen and (max-width: 575px) {
 }
