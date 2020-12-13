@@ -11,12 +11,12 @@ body {
 }
 
 main {
-    margin-top: -55px;
+    margin-top: -62px;
 }
 
 /* navbar stylings */
 .navbar {
-    background-color: black;
+    background-color: var(--secondary);
     color: var(--fourth);
 }
 
@@ -36,8 +36,8 @@ nav h1 {
 }
 
 .navbar btn:hover {
-    background: rgb(181,43,101);
-    background: linear-gradient(348deg, rgba(181,43,101,1) 20%, rgba(237,102,99,1) 66%);
+    background: rgb(189,99,237);
+    background: linear-gradient(18deg, rgba(189,99,237,1) 26%, rgba(48,127,214,1) 56%, rgba(172,236,163,1) 91%);
 }
 
 /* jumbotron stylings */
@@ -50,7 +50,6 @@ nav h1 {
 
 .intro {
     text-align: end;
-    padding-left: 50px;
     padding-bottom: 400px;
 }
 
