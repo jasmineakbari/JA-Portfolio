@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: var(--primary);
+    background-color: black;
     font-family: 'Fredoka One', cursive;
 }
 
 main {
-    margin-top: -35px;
+    margin-top: -55px;
 }
 
 /* navbar stylings */
@@ -51,7 +51,7 @@ nav h1 {
 .intro {
     text-align: end;
     padding-left: 50px;
-    padding-bottom: 350px;
+    padding-bottom: 400px;
 }
 
 /* about me section styling */
