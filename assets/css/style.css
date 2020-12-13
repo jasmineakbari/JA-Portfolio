@@ -7,10 +7,11 @@
 
 body {
     background-color: var(--primary);
+    font-family: 'Fredoka One', cursive;
 }
 
 main {
-    margin-top: -31px;
+    margin-top: -35px;
 }
 
 /* navbar stylings */
@@ -47,12 +48,10 @@ nav h1 {
     background-repeat: no-repeat;
 }
 
-.hero-img {
-    padding: 170px;
-}
-
 .intro {
     text-align: end;
+    padding-left: 50px;
+    padding-bottom: 350px;
 }
 
 /* about me section styling */
